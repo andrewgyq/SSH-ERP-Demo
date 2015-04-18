@@ -1,0 +1,71 @@
+body{
+  background:url(../img/loginbg.gif) repeat-x top #8bacd7;
+  text-align: center;
+}
+
+#LoginCircle{
+  /*margin-top:168px; */
+  width:655px;
+  height:252px;
+  position: absolute;
+  left: 50%; /*配合margin-left的负值实现水平居中*/
+  margin-left: -330px; /*值的大小等于元素宽度的一半*/
+  top:50%; /*配合margin-top的负值实现垂直居中*/
+  margin-top: -168px; /*值的大小等于元素高度的一半*/ 
+}
+
+#LoginDoc{
+  width:650px;
+  height:242px;
+  margin:3px;
+  background:url(../img/logindocbg.gif) no-repeat center center #f9fbfe;
+}
+
+#SysName{
+  float:left;
+  width:45%;
+  font-family:'黑体';
+  font-size:26px;
+  margin:90px 0 0 30px;
+  color:#004ea2;
+  line-height:28px;
+}
+
+#SysInput{
+  float:left;
+  width:45%;
+  height:120px;
+  margin-top:60px;
+}
+
+.disName{
+  font-family:'黑体';
+  font-size:15px;
+  color:#004ea2;
+}
+
+.InputStyle{
+  border:#41a1be 1px solid;
+  font-size:12px;
+  background:url(../img/inputstyle.gif) repeat-x;
+  color:#004ea2;
+  font-family:"verdana";
+  height:19px;
+  line-height:18px;
+}
+
+.button_height20{
+  border: #66a4fa 1px solid;
+  font-size: 10pt;
+  background: url(../img/bottom_over.gif);
+  cursor: hand;
+  height: 22px;
+}
+.button_height20_over{
+  border: #66a4fa 1px solid;
+  font-size: 9pt;
+  background: url(../img/bottom.gif);
+  cursor: hand; 
+  height: 22px;
+}
+
